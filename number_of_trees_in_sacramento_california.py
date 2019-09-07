@@ -34,8 +34,9 @@ number_of_trees = int(number_of_trees * DEVIATION)
 
 print(number_of_trees, " is an approximation of the number of trees in the city of Sacramento!")
 
+
 """
-================ OUTPUT ================
-14313599.999999996  is an approximation of the number of trees in the city of Sacramento!
+=========== OUTPUT ===========
+1288223  is an approximation of the number of trees in the city of Sacramento!599.999999996  is an approximation of the number of trees in the city of Sacramento!
 """
 
