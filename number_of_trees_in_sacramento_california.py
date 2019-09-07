@@ -30,7 +30,7 @@ number_of_trees_per_mile = number_of_trees_on_perimeter_unit * perimeter # numbe
 
 number_of_trees = number_of_trees_per_mile * perimeter
 
-number_of_trees = (number_of_trees * DEVIATION)
+number_of_trees = int(number_of_trees * DEVIATION)
 
 print(number_of_trees, " is an approximation of the number of trees in the city of Sacramento!")
 
