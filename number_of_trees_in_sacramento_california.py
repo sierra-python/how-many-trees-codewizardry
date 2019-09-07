@@ -14,9 +14,9 @@ import math
 perimeter = math.sqrt(994) * 4 # The area for the city of Sacramento is about 994 mi²
 
 
-number_of_trees_sample_one = 100  # Number of trees derived from sample 1 (1/100 of one mile)
-number_of_trees_sample_two = 200 # Number of trees derived from sample 2  (1/100 of one mile)
-number_of_trees_sample_three = 300 # Number of trees derived from sample 3  (1/100 of one mile)
+number_of_trees_sample_one = 50  # Number of trees derived from sample 1 (1/50 of one mile)
+number_of_trees_sample_two = 55 # Number of trees derived from sample 2  (1/50 of one mile)
+number_of_trees_sample_three = 75 # Number of trees derived from sample 3  (1/50 of one mile)
 
 MEDIAN_TREES = int(number_of_trees_sample_one + number_of_trees_sample_two + number_of_trees_sample_three) / 2 # Median of number of trees from sample of data derived from Google Maps.
 
